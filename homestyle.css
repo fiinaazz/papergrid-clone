@@ -1,0 +1,238 @@
+.headerdiv{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-top: -15px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* navbar sticky scroll*/
+
+.headerp{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding-top: 17px;
+}
+.container{
+    width:100%;
+    height:135px;
+    margin-top: -80px;
+    background-color: #121212;
+}*{
+    box-sizing: border-box;
+
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: list-item;
+    justify-content:space-between ;
+    align-items: center;
+    transition: 0.0s;
+    padding: 40px 127px;
+
+}
+header ul{
+    position:relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+    margin-bottom: -22px;
+    margin-top: -9px;
+
+}
+header ul li a{
+    position: relative;
+    margin: 0 9px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 0px;
+    font-weight: 500px;
+    font-size: 17px;
+    transition: 0.0s;
+
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background:url(bg.jpg);
+    background-size: cover;
+}
+header.sticky{
+    padding: 5px 100px;
+    background:black;    
+
+}
+.logo{
+    margin-top: 6px;
+    width: 110px;
+} 
+
+/* products */
+
+.pdcont{
+    width: 100%;
+    height: 1600px;
+    background-color:white;
+    margin-top: -570px;
+}
+.pdul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -32px;
+    list-style: none;
+}
+.pdli{
+    list-style: none;
+}
+.products{
+    background-color: white;
+    width: 80%;
+    height:1600px;
+    margin: auto;
+}
+.media{
+    width: 362px;
+    height: 362px;
+    background-color: blue;
+    margin-left: 22px;
+    margin-top: 20px;
+
+}
+.pdimg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mediaf{
+    width: 394px;
+    height: 527px;
+    background-color: blue;
+    margin-left: 22px;
+    margin-top: 75px;
+
+}
+
+/* founder contact*/
+
+.fcont{
+    width: 687px;
+    background-color: white;
+    height: 259px;
+    margin-top: 121px;
+    margin-left: 50px;
+}
+.nn{
+color: #69637b;
+font-size: 23px;
+margin-left: 25px;
+}
+.note{
+    font-size: 24px;
+    margin-left: 25px;
+}
+.about{
+    color: white;
+    background-color: black;
+    width: 143px;
+    height: 52px;
+    margin-left: 25px;
+    border: none;
+   cursor: pointer;
+}
+
+/* contact footer 1 */
+
+.footer1{
+    background-color: black;
+    width: 100%;
+    height: 350px;
+    margin-top: 200px;
+}
+.f1c{
+    width: 280px;
+    height: 260px;
+    background-color: black;
+    margin: auto;
+    padding-top: 23px;
+    text-align: center;
+}
+.num{
+color: white;
+font-size: 18px;
+}
+.contact{
+    color: white;
+    font-size: 18px;
+}
+.ful{
+    list-style: none;
+}
+.fil{
+    padding-top: 10px;
+}
+
+/* contact footer 2 */
+
+.footer2{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    margin-top: -15.8px;
+}
+.ful2c{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 250px;
+}
+.fli2c{
+list-style: none;
+}
+
+/* copyright */
+
+.c{ 
+    margin-top: 12.5px;
+    font-size: 13px;
+    margin-left: -285px;
+    color: white;
+}
+.pm{
+    cursor: pointer;
+}
+
+/* policies */
+
+.fc{
+    margin: 0px 3px;
+    font-size: 13px;
+    color: white;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fc:hover{
+    text-decoration: underline;
+}
+
+/* navbar icons */
+
+.icons{
+    margin-top: -19px;
+    margin-left: 1125px;
+}
+.ic{
+    margin: 0 9px;
+}
